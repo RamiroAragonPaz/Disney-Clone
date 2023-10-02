@@ -62,7 +62,6 @@ const Header = () => {
         } catch (error) {
             console.log(error)
         }
-        console.log("sin problemas")
     } 
 
 
@@ -144,6 +143,11 @@ z-index: 3;
 
 h2{
     letter-spacing: 1px;
+
+    @media (max-width: 768px) {
+    font-size: 10px;
+    text-align: center;
+}
 }
 `;
 
